@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link href="/style1.css" rel="stylesheet"/>
+</head>
+ <body>
+ <div class="container">
+    <div class="card">
+    <img src="/assets/form.png" alt="We're Open" class="logo">
+    </div>
+
+
+ <form class="container form">
+    <section class="form-group">
+        <h2 style="text-decoration: underline; font-size: 25px">Customer Information</h2>
+    <label for="Name">Customer Name</label>
+    <input type="text" placeholder="Your Name" id="Name">
+     <label for="Email">Email Address</label>
+     <input type="email" placeholder="Your email"> <br>
+ <label for="Phonenumber">Phonenumber</label>
+ <input type="number" placeholder="Your Phonenumber">
+ </section>
+ <section class="form-group">
+    <h2 style="text-decoration: underline; font-size: 25px;">Pastry Selection</h2>
+    <label for="Cake">Cake Menu</label>
+    <select name="Cakes" placeholder="Cake" id="Cake">
+        <option value="Cake">Cake</option>
+        <option value="Vanilla Cake">Vanilla Cake </option>
+        <option value="Strawberry Cake">Strawberry Cake</option>
+        <option value="Chocolate Cake">Chocolate Cake</option>
+    </select>
+    <label for="Cookies">Cookies Menu</label>
+    <select name="Cookies" id="Cookies">
+        <option value="Cookies">Cookies</option>
+        <option value="Chocolate-chip Cookies">Chocolate-chip Cookies</option>
+        <option value="Butter Cookies">Butter Cookies</option>
+    </select>
+    <label for="Bread">Bread Menu</label>
+    <select name="Bread" id="Bread">
+        <option value="Bread">Bread</option>
+        <option value="White Bread">White Bread</option>
+        <option value="Brown Bread">Brown Bread</option>
+        <option value="Wheat Bread">Wheat Bread</option>
+        <option value="Banana Bread">Banana Bread</option>
+    </select>
+    <label for="Ice-cream">Ice-cream</label>
+    <select name="Ice-cream" id="Ice-cream">
+     <option value="Ice-cream">Ice-cream</option>
+     <option value="Vanilla cream">Vanilla cream</option>
+     <option value="Strawberry cream">Strawberry cream</option>
+     <option value="Chocolate cream">Chocolate cream</option>
+     <option value="Toffee special mix">Toffee special mix</option>
+    </select>
+    <label for="Parfait">Parfait</label>
+    <select name="Parfait" id="Parfait">
+        <option value="Parfait">Parfait</option>
+        <option value="Fruit Parfait">Fruit Parfait</option>
+        <option value="Cake Parfait">Cake Parfait</option>
+    </select>
+    <label for="Drinks">Drinks</label>
+    <select name="Drinks" id="Drinks">
+        <option value="Drinks">Drinks</option>
+        <option value="Hibiscus juice">Hibiscus juice</option>
+        <option value="Fruit punch">Fruit punch</option>
+        <option value="Berry explosion">Berry explosion</option>
+        <option value="Citrus delight">Citrus delight</option>
+        <option value="Toffee's favourite">Toffee's favourite</option>
+    </select>
+  </section>
+ <section class="form-group">
+    <h2 style="text-decoration: underline; font-size: 25px" >Delivery Details</h2>
+    <label for="Delivery">Delivery</label>
+    <select name="Delivery type" id="Delivery type">
+    <option value="Delivery type">Delivery type</option>
+    <option value="Pick-up">Pick-up</option>
+    <option value="Home delivery">Home delivery</option>
+ </select>
+ </section>
+ <section class="form-group">
+    <label for="Payment Mode">Payment Mode</label>
+    <select name="Payment Mode" id="Payment Mode">
+        <option value="Payment Mode">Payment Mode</option>
+        <option value="Cash">Cash</option>
+        <option value="Card">Card</option>
+    </select>
+ </section>
+ <section>
+    <h2>Any Notes</h2>
+    <section class="form-group">
+    <label for="leave a note">Leave a note</label>
+ <input type="text" name="note" id="note">
+ </section>
+ <button type="submit" class="submit-button">Submit</button>
+<button type="reset" class="reset-button">Clear</button>
+ </form>
+  <footer class="footer-p">
+    <p>Thank you for choosing us!</p>
+    <a href="/index.html">Home </a>
+   </footer>
+
+
+ </div>
+</body>
+</html>

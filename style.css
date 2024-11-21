@@ -1,0 +1,61 @@
+header {
+    border-bottom: 1pc solid palevioletred;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+.H {
+    background-color: rgb(80, 50, 67);
+    border-radius: 10pc;
+    margin: 10px 0px;
+    text-align: center;
+     font-size: 7rem; 
+     margin: 20px;
+    padding: 10pt;;
+    text-decoration: dotted; color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav a {
+    color: white;
+    text-decoration:wavy;
+    font-weight: 200; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px ;
+}
+
+/** ID Selector */
+#footer-p {
+    font-size: 2rem;
+    color: black;
+}
+/** Classs Selector **/
+.container {
+    font-size: 2em;
+    background-color: palevioletred;
+    border-radius: 2%;
+    border-bottom: 5pc;
+    border-top: 5pc;
+    text-align: center;
+    display: grid;
+
+}
+p {
+    text-align: left;
+    text-align: justify;
+    margin-left: 10px 10px;
+    padding: 10pt;
+    
+}
+.card {
+    display: grid;
+    border-radius: 2cap;
+    margin: 5pc;
+    font-size: 4em;
+    font-weight: 200;
+    text-decoration: double;
+    color: white;
+    background-color: blueviolet;
+}
+.p {
+    font-size: large;
+    font-weight: 100;
+}

@@ -1,0 +1,71 @@
+body {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  height: 100vh;
+  background-color: palevioletred;
+}
+
+.card {
+  display: grid;
+  justify-content: center;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  padding: 10px;
+  height: 20cm;
+  width: 20cm;
+  margin: 10 0;
+}
+.container {
+  background-color: palevioletred;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.submit-button, .reset-button {
+  background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 5pc;
+    font-size: 20px;
+    cursor:progress;
+}
+.submit-button:hover {
+  background-color: green;
+}
+.reset-button:hover {
+  background-color: red;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 20px;
+  display: block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: black;
+  margin: 5px 5px;
+}
+
+.form-group input,
+.form-group select {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 75%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1pc solid gray;
+  border-radius: 5pc;
+}
+.footer-p {
+  margin: 10px 10px;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 5pc;
+    font-size: 30px;
+    text-decoration: black solid;
+}
